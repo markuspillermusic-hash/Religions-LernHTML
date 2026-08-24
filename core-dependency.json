@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/markuspillermusic-hash/Lern-THML.git",
-  "ref": "v1.0.0",
+  "ref": "v1.1.0",
   "manifestSchema": "schemas/module-manifest.schema.json",
   "classroomPackage": "packages/classroom-v1",
   "teacherPlatformPackage": "packages/teacher-platform-v1",

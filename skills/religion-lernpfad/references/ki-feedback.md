@@ -14,6 +14,25 @@ Feedback nur für Aufgaben anbieten, wenn alle folgenden Bedingungen erfüllt si
 
 Geeignet sind besonders materialgebundenes Zusammenfassen, Analysieren, Erläutern, Vergleichen, Erörtern und Beurteilen in Q12/Q13. Nicht geeignet sind spontane Stimmungsbilder, persönliche Reflexionsfelder, Brainstormings, reine Beobachtungsnotizen, Live-Abstimmungen, deterministische Zuordnungen und Selbstchecks. In Jahrgangsstufe 5 bis 11 standardmäßig kein individuelles KI-Korrekturangebot einbauen, sofern es nicht ausdrücklich fachlich und datenschutzbezogen beauftragt ist.
 
+## Urteile, Stellungnahmen und christliche Perspektiven
+
+- Eine Position oder ein Ergebnis wird nicht danach bewertet, ob es mit der
+  persönlichen Meinung der Lehrkraft, des Modells oder einer vermuteten
+  Mehrheitsmeinung übereinstimmt. Rückgemeldet werden ausschließlich
+  Sachrichtigkeit, Materialbezug, offengelegte Maßstäbe, Argumentaufbau,
+  Einwände, Abwägung und Folgerichtigkeit.
+- Gegensätzliche Urteile müssen bei vergleichbarer Begründungsqualität
+  gleichwertig rückmeldbar sein. Das serverseitige Raster nennt deshalb
+  zulässige Alternativen und darf keine gewünschte Schlussposition verstecken.
+- Persönliche Stellungnahmen sind nur feedbackgeeignet, wenn keine sensible
+  Selbstauskunft nötig ist. Die Aufgabenformulierung weist sichtbar darauf hin,
+  dass die Überzeugung selbst nicht bewertet wird.
+- Wo es zum Lehrplan und Material passt, kann statt einer privaten Meinung ein
+  Sachverhalt „aus christlicher Sicht“ beurteilt werden. Dann prüft das Feedback
+  die fachlich korrekte Anwendung benannter biblischer, theologischer oder
+  sozialethischer Maßstäbe, ohne den Lernenden persönlichen Glauben zu
+  unterstellen.
+
 ## Verbindlicher Aufgabenvertrag
 
 Die öffentliche HTML enthält nur nicht vertrauliche Metadaten, beispielsweise:
@@ -111,3 +130,6 @@ Keine Note, Punktzahl oder behauptete amtliche Bewertung ausgeben. Die Oberfläc
 5. Öffentlichen Raumstatus, Serverdateien, Exporte, Browserstorage und Logs auf Schlüssel, Schülertext und Erwartungshorizont prüfen.
 6. Modell-, Prompt-, Raster- und Lehrplanversion protokollieren, ohne den Schülertext zu speichern. Stichproben nach Änderungen erneut durchführen.
 7. Mit zwei Lehrerkonten prüfen, dass Raumlisten, Freigaben und Schlüssel strikt getrennt sind; anschließend Organisationsschlüssel-Fallback und Kontosperre testen.
+8. Jede Urteilsaufgabe mit zwei fachlich vertretbaren, gegensätzlichen
+   Ergebnissen testen. Bei vergleichbarer Argumentationsqualität darf keines
+   allein wegen seines Ergebnisses besser oder schlechter rückgemeldet werden.

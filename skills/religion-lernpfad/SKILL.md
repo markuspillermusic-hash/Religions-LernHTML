@@ -64,6 +64,7 @@ Eine fachlich belastbare, zugängliche und im Unterricht tragfähige Lernseite e
 - Gemeinsamen Klassenraumkern nie seitenweise forken: Fachspezifika als kleine deklarative Adapter bauen; technische Korrekturen zuerst im Kern, dann in alle Builds ausrollen und per Live-Vertragstest absichern.
 - Ausführbaren gemeinsamen Code im Referenz-Repository versionieren. Der Skill enthält Regeln und Prüfverfahren, nicht die heimliche zweite Kopie der Laufzeit.
 - KI-Feedback nie direkt aus der Schülerseite an einen Modellanbieter senden. Keine API-Schlüssel, Erwartungshorizonte oder internen Bewertungsraster in öffentliche Dateien oder Raumzustände schreiben.
+- Bei Stellungnahmen, Beurteilungen und Erörterungen ausschließlich Fachlichkeit, Materialbezug, offengelegte Kriterien, Argumente, Gegenargumente, Abwägung und Begründungsqualität rückmelden. Niemals die persönliche Meinung, Glaubensüberzeugung oder das gewählte Urteil als solches bewerten; gegensätzliche, gut begründete Ergebnisse müssen gleichwertig möglich sein. Wo fachlich sinnvoll, ein Sachurteil aus christlicher Perspektive anbieten, ohne ein persönliches Bekenntnis zu verlangen.
 - Lehrerkonten, Organisationen, API-Schlüssel und Kursraumbesitz nie seitenspezifisch nachbauen. Die LernHTML bindet den zentralen Plattformadapter deklarativ ein; der Raum enthält lediglich technische Freigaben und anonyme Zustände.
 - Keine Live-Schaltung oder Serveränderung ohne ausdrücklichen Auftrag.
 

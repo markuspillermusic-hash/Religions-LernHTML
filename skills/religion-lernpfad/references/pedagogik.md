@@ -28,7 +28,12 @@
 
 - Mit drei bis vier offenen Fragen enden, die auf spätere Themen oder Jahrgangsstufen verweisen.
 - Ein Feld für die eigene offene Frage anbieten.
-- Kein künstliches Abiturtraining und in Jahrgangsstufe 11 keinen KI-Korrekturprompt einbauen.
+- Kein künstliches Abiturtraining einbauen. Individuelles KI-Feedback bleibt in
+  Jahrgangsstufe 5 bis 11 standardmäßig aus; es darf in Jahrgangsstufe 11 jedoch
+  ausdrücklich beauftragt, für ausgewählte material- und operatorengebundene
+  Eigenleistungen formativ angeboten werden. Dafür gelten dieselben
+  serverseitigen Datenschutz-, Aufgabenvertrags- und Qualitätsregeln wie in der
+  Oberstufe; spontane persönliche Reflexionen bleiben ausgeschlossen.
 
 ### Q12/Q13
 
