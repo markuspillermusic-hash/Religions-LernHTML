@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  skill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read pinned core version
+        id: core
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          with open("core-dependency.json", encoding="utf-8") as handle:
+              print("ref=" + json.load(handle)["ref"])
+          PY
+      - name: Fetch validation tools
+        run: git clone --depth 1 --branch "${{ steps.core.outputs.ref }}" https://github.com/markuspillermusic-hash/Lern-THML.git .core
+      - run: python .core/tools/validate_skill_package.py skills/religion-lernpfad
+      - run: python -m py_compile skills/religion-lernpfad/scripts/*.py

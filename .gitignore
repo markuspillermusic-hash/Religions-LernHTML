@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+dist/
+qa-output/
+playwright-report/
+test-results/
+*.log
+*.sqlite*
+*.key
+.env
+.env.*
+!.env.example

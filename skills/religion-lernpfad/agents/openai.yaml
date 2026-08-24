@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Religion-Lernpfad"
+  short_description: "Religions-Lernpfade und Live-Unterricht entwickeln"
+  default_prompt: "Nutze $religion-lernpfad, um eine interaktive deutsche Religions-Lernseite didaktisch, gestalterisch und technisch zu erstellen oder zu überarbeiten."
